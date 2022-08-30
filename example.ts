@@ -106,8 +106,11 @@ function sortItems<T>(items: T[], compareFn: (a: T, b: T) => number): T[] {
 const numbers = [23, 24, 54, 21]
 
 const sortedNumbers = sortItems<number>(numbers, (a, b) => a - b)
-// any, unknown, never
 
+// any, unknown, never
+// Any - you can assign
+// Unknown - you can assign
+// Never - can return no value
 // Type Assertions
 
 // @ts-ignore / @ts-nocheck
